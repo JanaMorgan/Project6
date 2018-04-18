@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Black+Han+Sans");
+
+/*<meta name="viewport" content="width=device-width, initial-scale=1.0">*/
+@media screen and (max-width: 1024px){}
+body {
+  margin: 0;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 20px ;
+  position: center;
+  color: #c0cfe8;
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+  background-image: url(http://www.technocrazed.com/wp-content/uploads/2015/11/Cool-Black-And-White-Wallpapers-Resolution-1920x1080-Desktop-Backgrounds-146.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+  }
+
+button{
+  margin: 0px;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 35px ;
+  color: #F60E9E;
+  border-style: solid;
+  border-width: 5px;
+  border-color: purple;
+  margin-right:0px;
+  position: absolute;
+  bottom:25%;
+  right: 1%;
+}
+
+#fadeout {
+  opacity: 1;
+  transition: 1s opacity;
+  text-align: center;
+  font-size:25px;
+  color: #F60E9E;
+  border-style: solid;
+  border-width: 5px;
+  border-color: purple;
+  background-color: blue;
+  position: absolute;
+  bottom: 15%;
+  right: 1%;
+  
+}
+
+p {
+  text-align: center;
+  color: #F60E9E;
+  border-style: solid;
+  border-width: 5px;
+  border-color: purple;
+  background-color: blue;
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+  font-size: 18px;
+}
+
+
+
+
+
